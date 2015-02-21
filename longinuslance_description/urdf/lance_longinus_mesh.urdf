@@ -1,0 +1,12 @@
+<robot name="lance_longinus">
+  <link name="base_link">
+    <visual>
+      <geometry>
+      <!--
+        <mesh filename="package://longinuslance_description/models/longinus_long.stl" scale="0.02 0.02 0.024" />
+       -->
+        <mesh filename="package://longinuslance_description/models/longinus_short.stl" scale="0.02 0.02 0.024" />      </geometry>
+      <origin rpy="0 -0.4 0.3" xyz="0 -0.01 0.25"/>
+    </visual>
+  </link>
+</robot>
