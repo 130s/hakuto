@@ -7,7 +7,7 @@
       <link name="body">
         <visual name="visual">
           <geometry>
-            <mesh><uri>file:///home/n130s/link/ROS/indigo_trusty/cws_spaceexploration/src/tork-a/hakuto/longinuslance_description/models/longinus_short.stl</uri>
+            <mesh><uri>file:///home/n130s/link/ROS/indigo_trusty/cws_spaceexploration/src/tork-a/hakuto/longinuslance/models/longinus_short.stl</uri>
             <scale>0.002 0.002 0.0024</scale>
             </mesh>
           </geometry>

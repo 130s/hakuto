@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(longinuslance_description)
+project(longinuslance)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -77,7 +77,7 @@ find_package(catkin REQUIRED)
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES longinuslance_description
+#  LIBRARIES longinuslance
 #  CATKIN_DEPENDS other_catkin_pkg
 #  DEPENDS system_lib
 )
@@ -91,19 +91,19 @@ catkin_package(
 # include_directories(include)
 
 ## Declare a cpp library
-# add_library(longinuslance_description
-#   src/${PROJECT_NAME}/longinuslance_description.cpp
+# add_library(longinuslance
+#   src/${PROJECT_NAME}/longinuslance.cpp
 # )
 
 ## Declare a cpp executable
-# add_executable(longinuslance_description_node src/longinuslance_description_node.cpp)
+# add_executable(longinuslance_node src/longinuslance_node.cpp)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
-# add_dependencies(longinuslance_description_node longinuslance_description_generate_messages_cpp)
+# add_dependencies(longinuslance_node longinuslance_generate_messages_cpp)
 
 ## Specify libraries to link a library or executable target against
-# target_link_libraries(longinuslance_description_node
+# target_link_libraries(longinuslance_node
 #   ${catkin_LIBRARIES}
 # )
 
@@ -122,7 +122,7 @@ catkin_package(
 # )
 
 ## Mark executables and/or libraries for installation
-# install(TARGETS longinuslance_description longinuslance_description_node
+# install(TARGETS longinuslance longinuslance_node
 #   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
 #   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
@@ -147,7 +147,7 @@ catkin_package(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_longinuslance_description.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_longinuslance.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

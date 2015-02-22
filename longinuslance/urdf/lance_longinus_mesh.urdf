@@ -1,0 +1,10 @@
+<robot name="lance_longinus">
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <mesh filename="/home/n130s/link/ROS/indigo_trusty/cws_spaceexploration/src/tork-a/hakuto/longinuslance/models/longinus_short.stl" scale="0.02 0.02 0.024" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 1"/>
+    </visual>
+  </link>
+</robot>

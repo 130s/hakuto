@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package>
-  <name>longinuslance_description</name>
+  <name>longinuslance</name>
   <version>0.0.1</version>
-  <description>The longinuslance_description package</description>
+  <description>The longinuslance package</description>
   <maintainer email="iiysaito@opensource-robotics.tokyo.jp">Isaac I.Y. Saito</maintainer>
   <author email="iiysaito@opensource-robotics.tokyo.jp">Isaac I.Y. Saito</author>
   <license>BSD</license>
   <license>CreativeCommons-by-nc-sa-3.0</license><!-- stl files licensed http://www.thingiverse.com/thing:262972/#files -->
-  <url type="website">http://wiki.ros.org/longinuslance_description</url>
+  <url type="website">http://wiki.ros.org/longinuslance</url>
   <url type="repository">https://github.com/tork-a/hakuto</url>
   <url type="bugtracker">https://github.com/tork-a/hakuto/issues/</url>
 
   <buildtool_depend>catkin</buildtool_depend>
-
+  <run_depend>tetris_launch</run_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
