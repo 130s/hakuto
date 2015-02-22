@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <model name="longinus">
+      <pose>0 0 -0.9  0 2.5 0.8</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file:///home/n130s/link/ROS/indigo_trusty/cws_spaceexploration/src/tork-a/hakuto/longinuslance_description/models/longinus_short.stl</uri>
+            <scale>0.002 0.002 0.0024</scale>
+            </mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+  </world>
+</sdf>

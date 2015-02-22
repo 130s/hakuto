@@ -2,11 +2,13 @@
   <link name="base_link">
     <visual>
       <geometry>
-      <!--
-        <mesh filename="package://longinuslance_description/models/longinus_long.stl" scale="0.02 0.02 0.024" />
-       -->
-        <mesh filename="package://longinuslance_description/models/longinus_short.stl" scale="0.02 0.02 0.024" />      </geometry>
-      <origin rpy="0 -0.4 0.3" xyz="0 -0.01 0.25"/>
+        <mesh filename="/home/n130s/link/ROS/indigo_trusty/cws_spaceexploration/src/tork-a/hakuto/longinuslance_description/models/longinus_short.stl" scale="0.02 0.02 0.024" />
+<!--
+        <mesh filename="package://longinuslance_description/models/longinus_short.stl" scale="0.02 0.02 0.024" />
+        <mesh filename="models/longinus_short.stl" scale="0.02 0.02 0.024" />
+-->
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 1"/>
     </visual>
   </link>
 </robot>
