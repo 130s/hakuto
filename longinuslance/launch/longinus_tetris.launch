@@ -1,0 +1,10 @@
+<launch>
+  <arg name="gui" default="true"/>
+  <include file="$(find tetris_launch)/launch/demo.launch" >
+    <arg name="gui" value="$(arg gui)" />
+  </include>
+
+  <!-- Spawn a robot into Gazebo -->
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find longinuslance)/world/longinus_empty.world -sdf -z 1 -model lance" />
+  
+</launch>
