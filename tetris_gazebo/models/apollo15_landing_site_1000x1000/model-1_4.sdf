@@ -19,6 +19,10 @@
               <min_depth>0.02</min_depth>
             </ode>
           </contact>
+          <bounce>
+            <restitution_coefficient>0</restitution_coefficient>
+            <threshold>0</threshold>
+          </bounce>
         </surface>
         <geometry>
           <heightmap>
